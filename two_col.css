@@ -1,66 +1,69 @@
+body {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
+img {
+  width: 100%;
+}
+
+#center_col {
+  margin: 0 !important;
+  overflow-x: hidden !important;
+  width: 90vw !important;
+}
+
 #res {
-    -webkit-column-count: 2 !important;
-    column-count: 2 !important;
-    -webkit-column-gap: 40px !important;
-    column-gap: 40px !important;
-    -webkit-column-rule: 1px solid lightgrey !important;
-    column-rule: 1px solid lightgrey !important;
-    width: 100vw !important;
+  column-count: 2 !important;
+  column-gap: 40px !important;
+  column-rule: 1px solid lightgrey !important;
+  width: 100vw !important;
+}
+
+#res ._NId {
+  width: 40vw;
+}
+
+#res .g {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#iur {
+  width: 100%;
 }
 
 #rhs {
-    display: none;
-    margin-left: 0 !important;
-    background-color: white !important;
-    width: 460px !important;
-    overflow: hidden !important;
-    margin-right: 0 !important;
-    position: absolute !important;
-    top: -40px !important;
-    z-index: 100 !important;
-    right: -350px !important;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
-
-
-    animation-name: bounceInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-out;
+  background-color: white !important;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  transition: .3s right;
+  top: -40px !important;
+  right: -400px !important;
+  width: 460px !important;
+  z-index: 1000 !important;
 }
 
 #rhs:hover {
-    right: 0px !important;
-    animation-duration: 0.3s;
-    animation-name: bounceInShowRight;
+  right: 0px !important;
 }
 
-@keyframes bounceInRight {
-    0% {
-        opacity: 0;
-        transform: translateX(2000px);
-    }
-    60% {
-        opacity: 1;
-        transform: translateX(-30px);
-    }
-    80% {
-        transform: translateX(10px);
-    }
-    100% {
-        transform: translateX(0);
-    }
+#rhs #rhs_block,
+#rhs #rhs_block .g.rhsvw.mnr-c.g-blk,
+#rhs #rhs_block .g.rhsvw.mnr-c.g-blk .kp-blk {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100%;
 }
 
-@keyframes bounceInShowRight {
-    0% {
-        right: -350px;
-    }
-    100% {
-        right: 0px;
-    }
+#rc {
+  width: 40vw;
 }
-
 
 .mw {
-    max-width: 100vw !important;
+  max-width: 100vw !important;
 }
