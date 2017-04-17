@@ -10,7 +10,7 @@ img {
 #center_col {
   margin: 0 !important;
   overflow-x: hidden !important;
-  width: 90vw !important;
+  width: 95vw !important;
 }
 
 #res {
@@ -21,6 +21,8 @@ img {
 }
 
 #res ._NId {
+  clear: both;
+  overflow-x: auto !important;
   width: 40vw;
 }
 
