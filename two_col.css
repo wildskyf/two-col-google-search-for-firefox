@@ -1,28 +1,28 @@
-body {
+body:not(.no-two-col) {
   max-width: 100vw !important;
   overflow-x: hidden !important;
 }
 
-img {
+body:not(.no-two-col) img {
   width: 100%;
 }
 
-#center_col {
+body:not(.no-two-col) #center_col {
   margin: 0 !important;
   overflow-x: visible !important;
   width: 95vw !important;
 }
 
-#res {
+body:not(.no-two-col) #res {
   box-sizing: border-box;
   width: 100% !important;
 }
 
-#res ._NId {
+body:not(.no-two-col) #res ._NId {
   vertical-align: top;
 }
 
-#res ._NId > div > div {
+body:not(.no-two-col) #res ._NId > div > div {
   box-sizing: border-box;
   float: left;
   margin: 0 2.5% 20px;
@@ -31,11 +31,11 @@ img {
   width: 45%;
 }
 
-#iur {
+body:not(.no-two-col) #iur {
   width: 100% !important;
 }
 
-#rhs {
+body:not(.no-two-col) #rhs {
   background-color: white !important;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
   margin-right: 0 !important;
@@ -50,24 +50,24 @@ img {
   z-index: 1000 !important;
 }
 
-#rhs:hover {
+body:not(.no-two-col) #rhs:hover {
   right: 0px !important;
 }
 
-#rhs #rhs_block,
-#rhs #rhs_block .g.rhsvw.mnr-c.g-blk,
-#rhs #rhs_block .g.rhsvw.mnr-c.g-blk .kp-blk {
+body:not(.no-two-col) #rhs #rhs_block,
+body:not(.no-two-col) #rhs #rhs_block .g.rhsvw.mnr-c.g-blk,
+body:not(.no-two-col) #rhs #rhs_block .g.rhsvw.mnr-c.g-blk .kp-blk {
   padding: 0 !important;
   margin: 0 !important;
   width: 100%;
 }
 
-#taw, #extrares {
+body:not(.no-two-col) #taw, #extrares {
   clear: both;
   margin-left: 30px;
 }
 
-#rc {
+body:not(.no-two-col) #rc {
   width: 40vw;
 }
 

@@ -5,7 +5,7 @@
       "strict_min_version": "42.0"
     }
   },
-  "version": "1.4.0",
+  "version": "2.0.0",
   "manifest_version": 2,
   "name": "2-Column Google Results",
   "description": "Adjust the Google results page for wide screens by showing the results in two columns.",
@@ -18,7 +18,16 @@
     {
       "matches": ["http://*/*", "https://*/*"],
       "include_globs": ["http://www.google.*/*", "https://www.google.*/*"],
-      "css": [ "two_col.css" ]
+      "css": [ "two_col.css" ],
+      "js": [ "content-script.js" ]
     }
-  ]
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "page_action": {
+    "default_icon": "icon-16.png",
+    "browser_style": true
+  },
+  "permissions": [ "tabs" ]
 }
