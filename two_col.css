@@ -9,30 +9,30 @@ img {
 
 #center_col {
   margin: 0 !important;
-  overflow-x: hidden !important;
+  overflow-x: visible !important;
   width: 95vw !important;
 }
 
 #res {
-  column-count: 2 !important;
-  column-gap: 40px !important;
-  column-rule: 1px solid lightgrey !important;
-  width: 100vw !important;
+  box-sizing: border-box;
+  width: 100% !important;
 }
 
 #res ._NId {
-  clear: both;
-  overflow-x: auto !important;
-  width: 40vw;
+  vertical-align: top;
 }
 
-#res .g {
+#res ._NId > div > div {
   box-sizing: border-box;
-  display: inline-block;
+  float: left;
+  margin: 0 2.5% 20px;
+  min-height: 100px;
+  vertical-align: top;
+  width: 45%;
 }
 
 #iur {
-  width: 100%;
+  width: 100% !important;
 }
 
 #rhs {
@@ -62,10 +62,12 @@ img {
   width: 100%;
 }
 
+#taw, #extrares {
+  clear: both;
+  margin-left: 30px;
+}
+
 #rc {
   width: 40vw;
 }
 
-.mw {
-  max-width: 100vw !important;
-}
