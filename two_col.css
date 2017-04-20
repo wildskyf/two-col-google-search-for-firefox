@@ -35,6 +35,10 @@ body:not(.no-two-col) #iur {
   width: 100% !important;
 }
 
+body:not(.no-two-col) .big .mw {
+  max-width: 100% !important;
+}
+
 body:not(.no-two-col) #rhs {
   background-color: white !important;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
