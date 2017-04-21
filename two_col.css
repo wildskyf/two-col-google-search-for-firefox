@@ -31,6 +31,15 @@ body:not(.no-two-col) #res ._NId > div > div {
   width: 45%;
 }
 
+body:not(.no-two-col) #res ._NId g-section-with-header {
+  margin-left: 2.5%;
+  clear: both;
+}
+
+body:not(.no-two-col) #res ._NId g-scrolling-carousel {
+  margin: 0;
+}
+
 body:not(.no-two-col) #iur {
   width: 100% !important;
 }
