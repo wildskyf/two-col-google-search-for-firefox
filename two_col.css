@@ -4,7 +4,7 @@ body:not(.no-two-col) {
 }
 
 body:not(.no-two-col) img {
-  width: 100%;
+  max-width: 100%;
 }
 
 body:not(.no-two-col) #center_col {
@@ -22,13 +22,17 @@ body:not(.no-two-col) #res ._NId {
   vertical-align: top;
 }
 
+body:not(.no-two-col) #res ._NId > div {
+  column-count: 2 !important;
+  column-gap: 40px !important;
+  column-rule: 1px solid lightgrey !important;
+}
+
 body:not(.no-two-col) #res ._NId > div > div {
   box-sizing: border-box;
-  float: left;
   margin: 0 2.5% 20px;
   min-height: 100px;
   vertical-align: top;
-  width: 45%;
 }
 
 body:not(.no-two-col) #res ._NId g-section-with-header {
@@ -65,6 +69,10 @@ body:not(.no-two-col) #rhs {
 
 body:not(.no-two-col) #rhs:hover {
   right: 0px !important;
+}
+
+body:not(.no-two-col) #rhs img {
+  width: 100%;
 }
 
 body:not(.no-two-col) #rhs #rhs_block,
