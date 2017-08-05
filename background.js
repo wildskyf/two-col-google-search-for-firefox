@@ -1,5 +1,5 @@
 browser.tabs.onUpdated.addListener((id, changeInfo, tab) => {
-  if (!/.*google.com.*/.test(tab.url)) return;
+  if (!/.*google.com.*\/search/.test(tab.url) || /.*google.com.*\/search\?.*tbm=lcl/.test(tab.url)) {
     browser.tabs.sendMessage(
       tab.id, 'cancel-two-col'
     );
