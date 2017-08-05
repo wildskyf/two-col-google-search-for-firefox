@@ -92,3 +92,13 @@ body:not(.no-two-col) #rc {
   width: 40vw;
 }
 
+/* also work for startpage.com */
+
+.startpage .web_regular_results > li {
+  box-sizing: border-box;
+  float: left;
+  min-height: 125px;
+  vertical-align: top;
+  width: 50%;
+}
+
