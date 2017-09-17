@@ -22,17 +22,26 @@ body:not(.no-two-col) #res ._NId {
   vertical-align: top;
 }
 
-body:not(.no-two-col) #res ._NId > div {
+/*
+ * .knavi is for caculator. ref: #9
+ * */
+
+body:not(.no-two-col) #res ._NId > div:not(.knavi) {
   column-count: 2 !important;
   column-gap: 40px !important;
   column-rule: 1px solid lightgrey !important;
 }
 
-body:not(.no-two-col) #res ._NId > div > div {
+body:not(.no-two-col) #res ._NId > div:not(.knavi) > div {
   box-sizing: border-box;
   margin: 0 2.5% 20px;
   min-height: 100px;
   vertical-align: top;
+}
+
+body:not(.no-two-col) #res ._NId > div.knavi > div {
+  width: 40%;
+  margin: auto;
 }
 
 body:not(.no-two-col) #res ._NId g-section-with-header {
