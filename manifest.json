@@ -5,7 +5,7 @@
       "strict_min_version": "42.0"
     }
   },
-  "version": "2.4.0",
+  "version": "2.5.0",
   "manifest_version": 2,
   "name": "2-Column Google Results",
   "description": "Adjust the Google results page for wide screens by showing the results in two columns.",
