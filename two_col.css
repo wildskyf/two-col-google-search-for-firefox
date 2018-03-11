@@ -101,6 +101,10 @@ body:not(.no-two-col) #rc {
   width: 40vw;
 }
 
+body:not(.no-two-col) .rc table.ts td { /* for SearchPreview */
+  min-width: 130px;
+}
+
 /* also work for startpage.com */
 
 .startpage .web_regular_results > li {
