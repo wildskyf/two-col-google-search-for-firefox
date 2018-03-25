@@ -18,7 +18,7 @@ body:not(.no-two-col) #res {
   width: 100% !important;
 }
 
-body:not(.no-two-col) #res ._NId {
+body:not(.no-two-col) #res .bkWMgd {
   vertical-align: top;
 }
 
@@ -26,30 +26,30 @@ body:not(.no-two-col) #res ._NId {
  * .knavi is for caculator. ref: #9
  * */
 
-body:not(.no-two-col) #res ._NId > div:not(.knavi) {
+body:not(.no-two-col) #res .bkWMgd > div:not(.knavi) {
   column-count: 2 !important;
   column-gap: 40px !important;
   column-rule: 1px solid lightgrey !important;
 }
 
-body:not(.no-two-col) #res ._NId > div:not(.knavi) > div {
+body:not(.no-two-col) #res .bkWMgd > div:not(.knavi) > div {
   box-sizing: border-box;
   margin: 0 2.5% 20px;
   min-height: 100px;
   vertical-align: top;
 }
 
-body:not(.no-two-col) #res ._NId > div.knavi > div {
+body:not(.no-two-col) #res .bkWMgd > div.knavi > div {
   width: 40%;
   margin: auto;
 }
 
-body:not(.no-two-col) #res ._NId g-section-with-header {
+body:not(.no-two-col) #res .bkWMgd g-section-with-header {
   margin-left: 2.5%;
   clear: both;
 }
 
-body:not(.no-two-col) #res ._NId g-scrolling-carousel {
+body:not(.no-two-col) #res .bkWMgd g-scrolling-carousel {
   margin: 0;
 }
 
