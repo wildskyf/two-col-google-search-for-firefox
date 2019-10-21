@@ -213,7 +213,8 @@
                 "*://www.google.ws/*",
                 "*://www.google.co.za/*",
                 "*://www.google.co.zm/*",
-                "*://www.google.co.zw/*"
+                "*://www.google.co.zw/*",
+                "*://*.startpage.com/do/search"
             ],
       "include_globs": [
         "http://*.google.*/search*",
